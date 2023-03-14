@@ -1,6 +1,6 @@
 ---
 packages:
-  - name: dprint/dprint@0.34.5
+  - name: dprint/dprint@0.35.3
     tags:
       - dprint
   - name: editorconfig-checker/editorconfig-checker@2.7.0
