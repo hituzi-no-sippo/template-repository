@@ -39,14 +39,12 @@
   "prHourlyLimit": 2,
   "semanticCommits": "enabled",
   "semanticCommitType": "build",
-  "dependencyDashboard": true,
+  "dependencyDashboard": {
+    "enabled": true,
+    "autoclose": true,
+    "labels": ["renovate", "dependencies", "automated"]
+  },
   "dependencyDashboardApproval": false,
-  "dependencyDashboardAutoclose": true,
-  "dependencyDashboardLabels": [
-    "renovate",
-    "dependencies",
-    "automated"
-  ],
   "labels": [
     "renovate",
     "dependencies",
